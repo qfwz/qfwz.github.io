@@ -9,8 +9,22 @@
 }
 
 body {
-    background: #0f0f0f;
+    background: linear-gradient(135deg, #050505, #0c0c0c);
     color: white;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+
+    background-image: url("assets/noise.png");
+    background-repeat: repeat;
+    background-size: 240px 240px;
+
+    opacity: 0.075;
+    z-index: -1000;
 }
 
 html {
@@ -77,11 +91,11 @@ h2 {
     background: #1a1a1a;
     padding: 20px;
     border-radius: 10px;
-        display: flex;
-        flex-direction: row;
-        gap: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
     align-items: center;
-    height: 180px;
+    height: 240px;
 }
 
 .card img {

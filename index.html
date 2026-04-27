@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fawwaz Portfolio</title>
+    <title>Fawwaz's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     
@@ -14,32 +14,96 @@
 
     <!-- HERO -->
     <div class="hero">
-        <div class="container">
-            <h1>Hi, I'm <span>Fawwaz</span></h1>
-            <p>Web Developer • Tech Educator • Lifelong Learner</p>
-            <a href="#about" class="btn">About Me</a>
+        <div class="hero-content">
+            <img src="assets/avatar.png" alt="Fawwaz's Avatar">
+
+            <div class="container">
+                <h1>Hi, I'm <span>Fawwaz</span></h1>
+                <p>Web Developer • Tech Educator • Lifelong Learner</p>
+                <a href="#about" class="btn">About Me</a>
+            </div>
         </div>
+        
     </div>
 
     <!-- ABOUT -->
-    <section id="about">
-        <div class="container">
-            <h2>Who is Fawwaz?</h2>
-            <p>
-                I am someone who loves to create and share knowledge.
-                
-                I'm Passionate about technology and design, with experience in programming, game and web development, and product design, alongside teaching these skills to young audiences.
-            </p>
+<section id="about">
+  <div class="container about-wrapper">
 
-            <a href="#projects" class="btn">See My Work</a>
+    <div class="about-text">
+      <h2>Who is Fawwaz?</h2>
+      <p>
+        I am someone who loves to create and share knowledge.
+        I'm passionate about technology and design, with experience in programming,
+        game and web development, and product design.
+      </p>
 
-            <h2>Expertise</h2>
-            <p>
-                I help students go beyond theory by building real-world applications,
-                mastering programming fundamentals, and designing meaningful user experiences.
-            </p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+
+    <div class="about-skills">
+      <h2>Expertise</h2>
+      <ul class="skills-list">
+        <li>Developed real-world web applications using JavaScript and PHP, including environment setup, database integration, and deployment.</li>
+
+        <li>Guided young people in applying strong programming fundamentals across C++, C#, Java, and Python, reinforcing best practices in development workflows, debugging, and structured problem-solving.</li>
+
+        <li>Designed user interfaces and experiences using Figma, covering wireframing, prototyping, and scalable design systems.</li>
+      </ul>
+    </div>
+
+    
+  </div>
+
+
+  
+    <div class="proficiency">
+        <h2>Proficiency</h2>
+        <div class="skill">
+            <div class="skill-header">
+                <img class="skill-icon" src="assets/icons/js.png" alt="JavaScript logo">
+                <img class="skill-icon" src="assets/icons/php.png" alt="PHP logo">
+                <span>JavaScript / PHP</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 85%;"></div></div>
         </div>
-    </section>
+
+
+        <div class="skill">
+            <div class="skill-header">
+                <img class="skill-icon" src="assets/icons/sql.png" alt="MySQL logo">
+                <span>MySQL / Database</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <img class="skill-icon" src="assets/icons/c++.png" alt="C++ logo">
+                <img class="skill-icon" src="assets/icons/cs.png" alt="C# logo">
+                <img class="skill-icon" src="assets/icons/java.png" alt="Java logo">
+                <img class="skill-icon" src="assets/icons/python.png" alt="Python logo">
+                <span>C++ / C# / Java / Python</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <img class="skill-icon" src="assets/icons/figma.png" alt="Figma logo">
+                <span>UI/UX (Figma)</span>
+            </div>
+            <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
 
     <!-- PROJECTS -->
     <section id="projects">
@@ -83,8 +147,12 @@
     <section id="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Feel free to reach out for collaborations, inquiries, or just to say hi!</p>
-            <a href="mailto:qmazfawwaz@gmail.com" class="btn">Send Email</a>
+            <p>Feel free to reach out for collaborations, inquiries, or any professional opportunities.</p>
+            <a href="mailto:qmazfawwaz@gmail.com" class="btn">
+                <img src="assets/icons/email.svg" alt="svg icon of an envelope" style="width: 16px; height: 16px; margin-right: 8px;">
+
+                Send Email
+            </a>
         </div>
     </section>
 

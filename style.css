@@ -116,20 +116,30 @@ section {
 
 /* ABOUT */
 .about-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     gap: 40px;
-    align-items: start;
+    align-items: flex-start;
+
+    padding: 0 40px;
+}
+
+.about-text,
+.about-skills {
+    flex: 1 1 360px;
 }
 
 .about-text p {
     margin-top: 10px;
     color: #aaa;
     line-height: 1.6;
+
 }
 
 .about-skills h2 {
     margin-bottom: 12px;
+
 }
 
 .skill{

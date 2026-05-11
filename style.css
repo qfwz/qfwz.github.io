@@ -177,17 +177,21 @@ section {
 }
 
 .skill-text {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 180px;
+    padding-right: 180px;
     text-align: center;
 }
 
 .proficiency {
     display: flex;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 40px;
+    margin: 120px auto 0 auto;
     flex-direction: column;
     align-items: center;
+    max-width: 1000px;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
 }
 
 /* PROJECTS */
@@ -206,8 +210,12 @@ section {
     flex-direction: row;
     gap: 15px;
     align-items: center;
-    height: 240px;
-    flex: 1 1 360px;
+    min-height: 240px;
+    flex: 1 1 540px;
+}
+
+.card p {
+    font-size: 14px;
 }
 
 .card img {

@@ -65,10 +65,12 @@ html {
 
 .hero h1 {
     font-size: 48px;
+    font-family: 'Patua One', sans-serif;
 }
 
 .hero span {
     color: #facc15;
+    font-family: 'Patua One', sans-serif;
 }
 
 .hero p {
@@ -164,6 +166,12 @@ section {
     vertical-align: middle;
 }
 
+.skill-text {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
 .proficiency {
     display: flex;
     gap: 10px;
@@ -174,9 +182,10 @@ section {
 
 /* PROJECTS */
 .projects {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -188,6 +197,7 @@ section {
     gap: 15px;
     align-items: center;
     height: 240px;
+    flex: 1 1 360px;
 }
 
 .card img {

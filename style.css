@@ -61,6 +61,7 @@ html {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    text-align: center;
 }
 
 .hero h1 {
@@ -177,8 +178,8 @@ section {
 }
 
 .skill-text {
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 64px;
+    padding-right: 64px;
     text-align: center;
 }
 
